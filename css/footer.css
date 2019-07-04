@@ -1,0 +1,128 @@
+@media screen and (max-width: 991px) {
+    .bottom_left{padding-left:15rem;}
+    .bottom_center{padding-left:8rem;}
+    .bottom_right{padding-left:10rem;}
+}@media screen and (max-width: 767px) {
+    .bottom_left{padding-left:8rem;}
+    .bottom_center{padding-left:6rem;}
+    .bottom_right{padding-left:8rem;}
+}
+/*ol和ul去点*/
+ol,ul{
+    list-style: none;
+}
+/*footer_html  footer_css ��ҳ1L*/
+/*footer  黑条子*/
+.footer-container .footer-topcontent{
+    background:#000;
+    padding: 40px 0;
+    height: 191px;
+}
+.footer-container .footer-topcontent ul{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.footer-container .footer-topcontent ul li{
+   width: 25%;
+   text-align: center;
+   float:left;
+   position: relative;
+   padding: 10px 0;
+   min-height: 100px;
+   color: #fff;
+   display: block;
+
+}
+.footer-container .footer-topcontent ul li:nth-child(-n+3){
+    border-right: 1px #fff solid; 
+ }
+.footer-container .footer-topcontent ul li span{
+   display: block;
+   margin-top: 15px;
+   height: 40px;
+ }
+ /*黑条下面的整体样式*/
+ .footer-container .footer-classify{
+     max-width: 1280px;
+     margin:0 auto;
+     padding: 34px 66px;
+ }
+ .footer-container .footer-classify .footer-classify-content{
+     width: 20%;
+     float:left;
+}
+ .footer-classify .footer-classify-content ul>li {
+    margin-bottom: 15px;
+}
+ .footer-classify .footer-classify-content ul>li:first-child a {
+    color: #000;
+}
+
+/*定于杂志的input*/
+
+ .footer-classify .footer-classify-content .subscribe-box .form-input input {
+    height: 38px;
+    width: 100%;
+
+}
+.footer-classify .footer-classify-content .subscribe-box .form-input {
+    position: relative;
+}
+
+.footer-classify .footer-classify-content .subscribe-box .form-input .btn-ok {
+    position: absolute;
+    top:0px;
+    right: 1px;
+    height: 38px;
+    line-height: 38px;
+    min-width: 38px;
+    padding:0  5px;
+    background:#000;
+    border:0;
+    border-radius: 0;
+    color: #fff;
+}
+.footer-classify-content .subscribe-box .form-agree .panal-box p {
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.footer-logo {
+    width: 436px;
+    margin:0 auto ;
+}
+
+.footer-logo img{
+    max-width: 436px;
+    text-align: center;
+    margin:12px 0 46px;
+}
+.footer-classify{
+    background: #fff;
+}
+/*底部授权*/
+.footer-bottom{
+    text-align: center;
+    padding: 36px 40px 48px;
+    background: #f2f2f2;
+}
+.footer-classify .float-clearfix{
+    max-width:  2000px;
+}
+.footer-bottom .statement>li {
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 10px;
+}
+.footer-bottom .statement>li a{
+    color: #000;
+    font-size: 12px;
+}
+.footer-container{
+    background: #fff;
+}
+
+ 
+
+
+

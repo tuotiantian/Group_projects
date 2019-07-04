@@ -1,0 +1,71 @@
+/*内容*/
+.list-content-all {
+    position: relative;
+    margin: 30px 0;
+    background: #fff;
+}
+/*左侧内容*/
+.article{
+    width: 1260px;
+    margin: 0 auto;
+    background: #fff;
+}
+.list-content-all .list-left-nav {
+    float: left; 
+    position: relative;
+    height: auto;
+    margin-right: -198px;
+    width: 198px;
+}
+.list-content-all .filter-container .filter-title {
+    border-bottom: 1px solid #e6e5e5;
+    margin-bottom: 20px;
+    width: 198px;
+}
+.article .list-content-all .list-left-nav .filter-container .filter-title p {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 40px;
+} 
+.article .list-content-all .list-left-nav .filter-container li{
+    margin: 0 0 16px;
+}
+.article .list-content-all .list-left-nav .filter-container li a,a{
+    color: #999;
+    margin: 0 0 16px;
+}
+.article .list-content-all .list-left-nav  .filter-price ul li:first-child{
+    border-bottom:1px solid #e6e5e5;
+    width: 198px;
+}
+.article .list-content-all .list-left-nav  .filter-price ul li:first-child .priceicon {
+    padding-left: 125px;
+}
+
+.article .list-content-all .list-left-nav  .filter-price ul li .standard{
+    padding-left:155px;
+}
+/*香水右边的内容*/
+div.list-content-right{
+    float: left;
+    margin: 0 210px;
+
+}
+.list-content-right ul{
+    margin: 15px;
+}
+.list-content-r-title{
+    width: 1042px;
+    height: 71px;
+    border-bottom: 1px solid #e6e5e5;
+}
+.list-content-right li{
+    display: inline;
+    color: #999;
+}
+.perfume-list>div{
+    margin: 20px;
+    border: 1px solid #e6e5e5;
+    width: 242px;
+
+}
