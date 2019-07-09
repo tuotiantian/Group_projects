@@ -51,12 +51,17 @@ a{
 }
 .logo img{
     width: 283px;
+    margin-bottom: 20px;
 }
 img{
     vertical-align: middle;
 }
-/*面包屑*/
-.header .nav-container .nav-content {
+
+
+
+
+
+.nav-container .nav-content {
     max-width: 1320px;
     padding: 0 20px;
     margin: 0 auto;
@@ -64,11 +69,11 @@ img{
     border-bottom: 1px solid #efeded;
 }
 
-.header .nav-container .nav-content .nav-wrap {
+.nav-container .nav-content .nav-wrap {
     float: left;
 }
 
-.header .brend_nav{
+.brend_nav{
     max-width: 1320px;
     height: 50px;
     padding: 0 20px;
@@ -77,16 +82,16 @@ img{
     border-bottom: 1px solid #efeded;   
   }
 
-.header .brend_nav a{
+ .brend_nav a{
   position: relative;
   padding: 0 12px;
   line-height: 50px;
   font-size: 14px;
 }
-.header .brend_nav li:first-child{
-    margin: 0 ;
+ .brend_nav li:first-child{
+    /* margin: 0 ; */
   }
-.header .brend_nav li{
+ .brend_nav li{
     margin: 0 16px;
   }
 .YSL_input input{
@@ -105,10 +110,70 @@ img{
 .brend_nav .YSL_input .header-search-btn{
     width:2em;
     height: 39px;
+}
 
+/* 面包屑子列表 */
+/* 移入显示*/
+ul.mianbaoxie{
+    position: relative;
 }
-.dropdown-menu{
+li .downmenu{
+    display: none; 
+    position: absolute;
+    top: 49px;
+    left: -320px;
+    border-top:1px solid #000;
+    background-color: #fff;
+    width:1920px;
+    
+}
+
+li:hover .downmenu{
+    display:block;
+    border-bottom:1px  solid #8d8989;
+
+} 
+/* 彩妆子列表 */
+.caizhuang_list ul{
     float: left;
-    position: absolute!important;
-    z-index: 999;
+    margin-right:170px ;   
 }
+.caizhuang_list ul>li:first-child{
+    font-weight:bold;
+}
+.caizhuang_list ul li{
+    padding-bottom: 4px;
+}
+ul.caizhuang_all{
+    background-color: #fff;
+    width: 1320px;
+    margin: 0 auto;
+    padding-left:15px;
+    padding-top:30px;  
+    margin-bottom: 120px;height: 100px;
+}
+/* 下拉菜单特别推荐款 */
+ul.list_mouth{
+    background-color:#000;
+    margin-left: 300px;
+    
+}
+ul.list_mouth li{
+    float:left;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    }
+ul.list_mouth li p{
+    margin-bottom: 0px;
+    padding: 0px;
+    }
+ul.list_mouth li p:first-child{
+    margin-top: 10px;
+    padding: 0px;
+    font-weight: bold;
+    margin-right:200px; 
+    }
+ul.list_mouth li a{
+    margin-top: 10px;
+    padding-left: 0px;
+    }

@@ -3,9 +3,25 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+a{
+    color: #000;
+}
 /*ol ,ul无样式*/
 ul{
     list-style: none;
+}
+/* li为灰色 */
+ul li a span{
+    color: #000;
+    text-decoration:none;
+}
+a.dropdown_toggle_span{
+    color: #000;
+    text-decoration:none;
+}
+/* body为白色 */
+body.white{
+    background-color:#fff;
 }
 /*头部和尾部的a标签的字体颜色*/
  .footer-classify .footer-classify-content ul>li a, .header-simple .header-simple-container .contact-us>ul>li a {
@@ -24,11 +40,135 @@ body,html{
 /*引入头部,尾部*/
 .my_header,.my_footer{width:100%;}
 @media screen and (min-width:992px) {
-    .my_header{height:15rem;}
+    /* .my_header{height:11rem;} */
     .my_footer{height:60rem;}
 }
 @media screen and (max-width:991px) {
-    .my_header{height:11rem;}
+    /* .my_header{height:11rem;} */
     .my_footer{height:30rem;}
 }
 
+.comm_header{
+    position: relative;
+    z-index: 999;
+}
+.contener_perfume{
+    position: relative;
+}
+
+/*导航*/
+.nav-container .nav-content {
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border-top: 1px solid #efeded;
+    border-bottom: 1px solid #efeded;
+}
+
+.nav-container .nav-content .nav-wrap {
+    float: left;
+}
+
+.brend_nav{
+    max-width: 1320px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border-top: 1px solid #efeded;
+    border-bottom: 1px solid #efeded;   
+    background-color: #fff;
+  }
+
+ .brend_nav a{
+  position: relative;
+  padding: 0 12px;
+  line-height: 50px;
+  font-size: 14px;
+}
+ 
+ .brend_nav li{
+    margin: 0 16px;
+  }
+.YSL_input input{
+    width: 100%;
+    height: 38px;
+    border: 1px solid #000;
+    padding-right: 30px;
+    margin-top: 5px;
+}
+.searchKeywords{
+    padding-left:1em;
+    font-size: 0.8em;
+    color: #000;
+}
+
+.brend_nav .YSL_input .header-search-btn{
+    width:2em;
+    height: 39px;
+}
+
+/* 导航子列表 */
+/* 移入显示*/
+ul.mianbaoxie{
+    position: relative;
+}
+li .downmenu{
+    display: none; 
+    position: absolute;
+    top: 49px;
+    left: -320px;
+    border-top:1px solid #000;
+    background-color: #fff;
+    width:1920px;
+    
+}
+
+li:hover .downmenu{
+    display:block;
+    border-bottom:1px  solid #8d8989;
+
+} 
+/* 导航彩妆子列表 */
+.caizhuang_list ul{
+    float: left;
+    margin-right:170px ;   
+}
+.caizhuang_list ul>li:first-child{
+    font-weight:bold;
+}
+.caizhuang_list ul li{
+    padding-bottom: 4px;
+}
+ul.caizhuang_all{
+    background-color: #fff;
+    width: 1320px;
+    margin: 0 auto;
+    padding-left:15px;
+    padding-top:30px;  
+    margin-bottom: 120px;height: 100px;
+}
+/* 导航下拉菜单特别推荐款 */
+ul.list_mouth{
+    background-color:#000;
+    margin-left: 300px;
+    
+}
+ul.list_mouth li{
+    float:left;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    }
+ul.list_mouth li p{
+    margin-bottom: 0px;
+    padding: 0px;
+    }
+ul.list_mouth li p:first-child{
+    margin-top: 10px;
+    padding: 0px;
+    font-weight: bold;
+    margin-right:200px; 
+    }
+ul.list_mouth li a{
+    margin-top: 10px;
+    padding-left: 0px;
+    }

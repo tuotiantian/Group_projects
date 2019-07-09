@@ -13,15 +13,16 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/comm.css" />
-    <link rel="stylesheet" href="css/perfume.css" />
+    <link rel="stylesheet" href="css/air_cushion.css" />
 </head>
 
 <body class="white">
     <!--头-->
-    <header class="comm_header">
+    <header>
         <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
     </header>
-    <div class="contener_perfume">
+    <!-- air_cushion气垫页面 -->
+    <div class="air_cushion">
         <!--导航-->
         <div class="brend_nav  row">
             <div class="header-scroll p-0 col-9">
@@ -277,229 +278,230 @@
         <a href="#" class="header-search-btn"></a>
     </div>
     </div>
-    <!--香水图 -->
-    <div class="banner none-sm perfume_picture">
-        <img src="img/perfumePage/15590679190201645.jpg" alt="">
+    <!--面包屑导航-->
+    <div>
+        <ul class="bread p-3">
+            <li>
+                <a href="#">首页</a>
+                <span>></span>
+            </li>
+            <li>
+                <a href="#">彩妆</a>
+                <span>></span>
+            </li>
+            <li>
+                <a href="#">面部</a>
+                <span>></span>
+            </li>
+            <li>
+                <a href="#">粉底</a>
+                <span>></span>
+            </li>
+            <li>
+                <a href="#">圣罗兰明彩轻垫粉底液&nbsp;14g</a>
+            </li>
+        </ul>
     </div>
-    <!--内容-->
-    <div class="article" style="background-color:#fff">
-        <div class="list-content-all float-clearfix">
-            <div class="list-left-nav">
-                <div class="filter-container">
-                    <div class="filter-title none-sm">
-                        <p>香水</p>
-                    </div>
-                    <div class="filter-classify none-sm events-filter-warp">
-                        <ul>
-                            <li><a href="">女士香水</a></li>
-                            <li><a href="">男士香水</a></li>
-                        </ul>
-                    </div>
-                    <div class="filter-wrapper filter-price">
-                        <ul class="price">
-                            <div>
-                                <li class="open">价格范围</li>
-                                <ul class="uu">
-                                    <p>1000-2000</p>
-                                    <p>2000-3000</p>
-                                </ul>
-                            </div>
-                            <li>规格</li>
-                            <ul>
-                                <p>1000-2000</p>
-                                <p>2000-3000</p>
-                            </ul>
-                        </ul>
-                    </div>
+    <!-- 气垫简介, -->
+    <div class="cushion-index row">
+        <!-- 左边 -->
+        <div class="col-8 suoluetu_and_big">
+            <div class="pic">
+                <ul class="suoluetu">
+                    <li><img src="img.1/cushion/cushion_01.jpg" alt=""></li>
+                    <li><img src="img.1/cushion/cushion_01.jpg" alt=""></li>
+                    <li><img src="img.1/cushion/cushion_01.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="big_air_cushion">
+                <img src="img.1/cushion/cushion_big.jpg" alt="">
+                <p><a>立即试色</a></p>
+            </div>
+        </div>
+        <!-- 右边 -->
+        <div class="col-4">
+            <ul>
+                <li>
+                    <h5 class="one">LE CUSHION ENCRE DE PEAU</h5>
+                </li>
+                <li class="two">圣罗兰明彩轻垫粉底液 14g</li>
+                <li>☆☆☆☆☆ <a href="#" class="air_comment">162条评论</a></li>
+                <li>
+                    <ul class="recommend">
+                        <li>B10 象牙白色 适合皮肤天生白皙的女生</li>
+                        <li>B20 透亮白色 热卖色号适合大部分消费者 打造透亮白皙的妆效</li>
+                        <li>(&nbsp;主推色号&nbsp;)</li>
+                        <li><a href="#">查看详情</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="air_cushioncolor">
+                        <li><span style="background: #f8c29c"></span></li>
+                        <li><span style="background: #e9b38d"></span></li>
+                        <li><span style="background: #efc095"></span></li>
+                        <li><span style="background: #f8c29c"></span></li>
+                        <li><span style="background: #f8c29c"></span></li>
+                        <li><span style="background: #f8c29c"></span></li>
+                        <li><span style="background: #f8c29c"></span></li>
+                        <li><span style="background: #f8c29c"></span></li>
+                        <li><span style="background: #f8c29c"></span></li>
+                    </ul>
+                </li>
+                <li>
+                    <input list="students" class="input_chack_color" placeholder="B20 透亮白色(&nbsp;HOT&nbsp;)">
+                    <datalist id="students" class="chack_color">
+                        <option value="B10象牙白色"></option>
+                        <option value="B20透亮白色(HOT)"></option>
+                        <option value="B30自然色"></option>
+                        <option value="B40健康小麦色"></option>
+                        <option value="B20透亮白色(替换装)"></option>
+                        <option value="B10象牙白色(替换装)"></option>
+                        <option value="B30自然色(替换装)"></option>
+                        <option value="B40健康小麦色(替换装)"></option>
+                    </datalist>
+                </li>
+                <!-- 专属刻字 -->
+                <li>
+                    <input type="checkbox" class="m-1"> 专属刻字
+                    <p class="m-1 pl-4 beizhu">勾选后点击加入购物袋，即享专属定制刻字服务。</p>
+                    <p class="m-1  pl-4 kezi">刻字服务为80元/次，如果每笔订单满800元，可尊享免费刻字服务。刻字工艺需耗时5工作日，最终配送时间会相应延长</p>
+                </li>
+                <li class="add_shopping">
+                    <a href="#" btn_>-</a>
+                    <span>
+                        <input type="text" readonly value="1">
+                    </span>
+                    <a href="#">+</a>
+                    <span>¥510</span>
+                    <span>加入购物袋</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 寻找色号,video视频,探索发现 -->
+    <div class="product_details">
+        <img src="img.1/cushion/qidianxiangqing.jpg" alt="">
+        <img src="img.1/cushion/vedio.jpg" alt="">
+        <img src="img.1/cushion/find.jpg" alt="">
+    </div>
+    <!-- 推荐妆容 -->
+    <div class="recommend">
+        <h3 style="text-align: center " class="mb-5">推荐妆容</h3>
+        <div class="recommend_detail row">
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
                 </div>
             </div>
-            <div class="list-content-right">
-                <div class="list-content-r-title">
-                    <ul>
-                        <li class="">首页</li>
-                        <li>></li>
-                        <li>香水</li>
-                    </ul>
-                    <ul class="right">
-                        <li class="there">10个商品</li>
-                        <li class="four"><input type="text"></li>
-                    </ul>
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
                 </div>
-                <div class="perfume-list row">
-                    <div class=" one-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class=" two-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class="three-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class=" four-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class=" four-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class=" one-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class=" two-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class="three-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-                    <div class=" four-perfume col-3">
-                        <img src="img/perfumePage/perfume-01.jpg" class="mb-5" alt="">
-                        <p class="mb-4 text-center"> <a href="">Y EAU DE PARFUM</a></p>
-                        <p class="mb-4 text-center"> <a href="">圣罗兰先锋男士香水(浓香型)</a></p>
-                        <p class="mb-4 text-center">
-                            <ul class="mb-5 text-center">
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">☆</li>
-                                <li><img src="" alt="">|</li>
-                                <li><img src="" alt="">¥1050</li>
-                            </ul>
-                    </div>
-
+            </div>
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
+                </div>
+            </div>
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- YSL官网评论 -->
+    <div class="website_reviews">
+        <h3 class="website_reviews_title">YSL官网评论</h3>
+        <div class="comment_total">
+            <ul class="comment_list">
+                <li>圣罗兰明彩轻垫粉底液 14g</li>
+                <li>总评分&nbsp;&nbsp;☆☆☆☆☆</li>
+                <li><a href="#" class="add_comment">添加你的评论</a></li>
+            </ul>
+        </div>
+        <div class="comment_total">
+            <ul class="comment_list">
+                <li>圣罗兰明彩轻垫粉底液 14g</li>
+                <li>总评分&nbsp;&nbsp;☆☆☆☆☆</li>
+                <li><a href="#" class="add_comment">添加你的评论</a></li>
+            </ul>
+        </div>
+        <div class="comment_total ">
+            <ul class="comment_list">
+                <li>圣罗兰明彩轻垫粉底液 14g</li>
+                <li>总评分&nbsp;&nbsp;☆☆☆☆☆</li>
+                <li><a href="#" class="add_comment">添加你的评论</a></li>
+            </ul>
+        </div>
     </div>
-    <script>
-        // Dom写的按价格查找
-        // 1.查找触发事件
-        //找到菜单中的li.open元素
-        var lis = document.querySelectorAll("ul.price li");
-        console.log(lis);
-        //绑定事件处理函数
-        //遍历opens中的每个li
-        for (var li of lis) {
-            console.log(li)
-            //为每个lis绑定单击事件 
-            li.onclick = function () {
-                //3.查找要修改的元素
-                //获得当前点击的span
-                var li = this;
-                // 4.修改元素
-                // 如果当前li是开着的(class为open)
-                if (li.className == "open") {
-                    li.className = "";
-                } else {//否则说明是关的
-                    var open = document.querySelector(
-                        "ul.price div li.open"
-                    );
-                    console.log(open);
-                    console.log(111);
-                    open != null && (open.className = "")
-                    li.className = "open";
+    <!-- 你可能喜欢 -->
+    <div class="recommend mb-5">
+        <h3 style="text-align: center" class="mb-5">推荐妆容</h3>
+        <div class="recommend_detail row">
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
+                </div>
+            </div>
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
+                </div>
+            </div>
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
+                </div>
+            </div>
+            <div class="col-3 saihong">
+                <div class=" innter_border">
+                    <img src="img.1/cushion/saihong.jpg" alt="">
+                    <span></span>
+                    <p>TOUCHE ÉCLAT BLUR PERFECTOR</p>
+                    <p>圣罗兰明彩无瑕柔焦霜</p>
+                    <p>☆☆☆☆☆&nbsp;&nbsp;|&nbsp;&nbsp;¥460</p>
+                    <p><a href="#">立即购买</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                }
-
-            }
-        }
-    </script>
     <!--脚-->
     <footer>
         <iframe class="my_footer" src="footer.html" frameborder="0" scrolling="no"></iframe>

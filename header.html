@@ -8,9 +8,11 @@
     <!-- 导入css-->
     <link rel="stylesheet" href="../css/bootstrap.css"/>
     <!-- 导入3个js,有顺序要求-->
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="css/comm.css"/>
     <link rel="stylesheet" href="css/header.css"/>
 </head>
@@ -65,71 +67,259 @@
                  </div> 
             </div>
         </div>
-        <!--面包屑导航-->
-        <div class="brend_nav  row" >
-                <div class="header-scroll p-0 col-9">
-                        <div class="scroller-wrap">
-                            <div class="header-scroll-container">
-                                <ul class="nav nav-pills">
-                                    <!--第一个下拉菜单的按钮-->
-                                    <li class="dropdown-toggle" data-toggle="dropdown">
-                                        <a href="#">
-                                            <span>彩妆</span>
-                                        </a>
-                                    </li>
-                                    <!--第一个下拉菜单列表-->
-                                    <div class="dropdown-menu">
-                                        <ul>456456</ul>
-                                       
-                                    </div>
-                                    <!--第二个下拉菜单的按钮-->
-                                    <li class="dropdown-toggle" data-toggle="dropdown">
-                                        <a href="#">
-                                            <span>护肤</span>
-                                        </a>
-                                    </li>
-                                    <!--第二个下拉菜单列表-->
-                                    <div class="dropdown-menu">
-                                        <ul>456456</ul>
-                                    </div>
-                                    <!--第三个下拉菜单的按钮-->    
-                                    <li>
-                                        <a href="#">
-                                            <span>香水</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span>明星产品</span>
-                                        </a>
-                                    </li>
-                                     <li>
-                                        <a href="#">
-                                            <span>尊享礼盒</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span>会员中心</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span>私人订制服务</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                </div>
-                <!---input-->
-                <div class="col-3 p-0 YSL_input">
-                     <input type="text" class="searchKeywords" maxlength placeholder="YSL气垫">
-                     <a href="#" class="header-search-btn"></a>
-                </div>
-        </div>
+        
     </div>
 </div>
 
+
+<div class="brend_nav  row" >
+        <div class="header-scroll p-0 col-9">
+                <div class="scroller-wrap">
+                    <div class="header-scroll-container">
+                        <ul class="nav  mianbaoxie">
+                            <!--彩妆下拉菜单的按钮-->
+                            <li class="lllll">
+                                <a href="#" class="dropdown_toggle_span">
+                                    <span>彩妆</span>
+                                </a>
+                                <br>
+                                <!--彩妆的下拉菜单列表-->
+                                <div class="downmenu">
+                                    <ul class="caizhuang_all">
+                                        <li class="caizhuang_list">
+                                            <!-- 唇部 -->
+                                            <ul>
+                                                <li>唇部</li>
+                                                <li>唇膏</li>
+                                                <li>唇釉</li>
+                                                <li>唇油</li>
+                                                <li class="chunjiashuang">唇颊霜</li>
+                                            </ul>
+                                            <!-- 面部 -->
+                                            <ul>
+                                                <li>面部</li>
+                                                <li>明彩笔</li>
+                                                <li>妆前隔离</li>
+                                                <li>粉底</li>
+                                                <li>粉饼</li>
+                                                <li>蜜粉</li>
+                                                <li>腮红</li>
+                                            </ul>
+                                            <!-- 眼部 -->
+                                            <ul>
+                                                <li>眼部</li>
+                                                <li>睫毛膏</li>
+                                                <li>眼线<li>
+                                                <li>眉笔</li>
+                                                <li>眼影</li>
+                                            </ul>
+                                            <!-- 甲油 -->
+                                            <ul>
+                                                <li>甲油</li>
+                                            </ul>
+                                            <!-- 套装工具 -->
+                                            <ul>
+                                                <li>套装工具</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <!-- 下拉菜单彩妆特别推荐款 -->
+                                    <ul class="list_mouth">
+                                        <li>
+                                            <img src="img/perfumePage/yingliang.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <p>圣罗兰莹亮纯魅唇膏</p>
+                                                <p> 莹亮色泽&nbsp;时刻闪耀</p>
+                                                <p><a href="#">了解详情</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <img src="img/perfumePage/yingliang.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <p>圣罗兰莹亮纯魅唇膏</p>
+                                                <p> 莹亮色泽&nbsp;时刻闪耀</p>
+                                                <p><a href="#">了解详情</a></p>
+                                            </ul>
+                                        </li>  
+                                    </ul>
+                                </div>
+                            </li>
+                           
+                            <!--护肤下拉菜单的按钮-->
+                            <li >
+                                <a href="#">
+                                    <span>护肤</span>
+                                </a>
+                                <!--护肤下拉菜单列表-->
+                                <div class="downmenu">
+                                    <ul class="caizhuang_all">
+                                        <li class="caizhuang_list">
+                                            <!-- 唇部 -->
+                                            <ul>
+                                                <li>唇部</li>
+                                                <li>唇膏</li>
+                                                <li>唇釉</li>
+                                                <li>唇油</li>
+                                                <li>唇颊霜</li>
+                                            </ul>
+                                            <!-- 面部 -->
+                                            <ul>
+                                                <li>面部</li>
+                                                <li>明彩笔</li>
+                                                <li>妆前隔离</li>
+                                                <li>粉底</li>
+                                                <li>粉饼</li>
+                                                <li>蜜粉</li>
+                                                <li>腮红</li>
+                                            </ul>
+                                            <!-- 眼部 -->
+                                            <ul>
+                                                <li>眼部</li>
+                                                <li>睫毛膏</li>
+                                                <li>眼线<li>
+                                                <li>眉笔</li>
+                                                <li>眼影</li>
+                                            </ul>
+                                            <!-- 甲油 -->
+                                            <ul>
+                                                <li>甲油</li>
+                                            </ul>
+                                            <!-- 套装工具 -->
+                                            <ul>
+                                                <li>套装工具</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <!-- 下拉菜单彩妆特别推荐款 -->
+                                    <ul class="list_mouth">
+                                        <li>
+                                            <img src="img/perfumePage/yingliang.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <p>圣罗兰莹亮纯魅唇膏</p>
+                                                <p> 莹亮色泽&nbsp;时刻闪耀</p>
+                                                <p><a href="#">了解详情</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <img src="img/perfumePage/yingliang.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <p>圣罗兰莹亮纯魅唇膏</p>
+                                                <p> 莹亮色泽&nbsp;时刻闪耀</p>
+                                                <p><a href="#">了解详情</a></p>
+                                            </ul>
+                                        </li>  
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <!--香水下拉菜单的按钮-->    
+                            <li>
+                                <a href="#">
+                                    <span>香水</span>
+                                </a>
+                                <!--香水下拉菜单列表-->
+                                <div class="downmenu">
+                                    <ul class="caizhuang_all">
+                                        <li class="caizhuang_list">
+                                            <!-- 唇部 -->
+                                            <ul>
+                                                <li>唇部</li>
+                                                <li>唇膏</li>
+                                                <li>唇釉</li>
+                                                <li>唇油</li>
+                                                <li>唇颊霜</li>
+                                            </ul>
+                                            <!-- 面部 -->
+                                            <ul>
+                                                <li>面部</li>
+                                                <li>明彩笔</li>
+                                                <li>妆前隔离</li>
+                                                <li>粉底</li>
+                                                <li>粉饼</li>
+                                                <li>蜜粉</li>
+                                                <li>腮红</li>
+                                            </ul>
+                                            <!-- 眼部 -->
+                                            <ul>
+                                                <li>眼部</li>
+                                                <li>睫毛膏</li>
+                                                <li>眼线<li>
+                                                <li>眉笔</li>
+                                                <li>眼影</li>
+                                            </ul>
+                                            <!-- 甲油 -->
+                                            <ul>
+                                                <li>甲油</li>
+                                            </ul>
+                                            <!-- 套装工具 -->
+                                            <ul>
+                                                <li>套装工具</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <!-- 下拉菜单彩妆特别推荐款 -->
+                                    <ul class="list_mouth">
+                                        <li>
+                                            <img src="img/perfumePage/yingliang.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <p>圣罗兰莹亮纯魅唇膏</p>
+                                                <p> 莹亮色泽&nbsp;时刻闪耀</p>
+                                                <p><a href="#">了解详情</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <img src="img/perfumePage/yingliang.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <p>圣罗兰莹亮纯魅唇膏</p>
+                                                <p> 莹亮色泽&nbsp;时刻闪耀</p>
+                                                <p><a href="#">了解详情</a></p>
+                                            </ul>
+                                        </li>  
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>明星产品</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>尊享礼盒</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>会员中心</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>私人订制服务</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <!---input-->
+        <div class="col-3 p-0 YSL_input">
+             <input type="text" class="searchKeywords" maxlength placeholder="YSL气垫">
+             <a href="#" class="header-search-btn"></a>
+        </div>
+</div>
 </body>
 </html>
+

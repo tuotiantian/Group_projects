@@ -29,6 +29,7 @@
 } 
 .article .list-content-all .list-left-nav .filter-container li{
     margin: 0 0 16px;
+    padding-bottom: 20px;
 }
 .article .list-content-all .list-left-nav .filter-container li a,a{
     color: #999;
@@ -45,6 +46,29 @@
 .article .list-content-all .list-left-nav  .filter-price ul li .standard{
     padding-left:155px;
 }
+
+/* 价格范围 */
+div.filter-price ul.price li{
+    cursor:pointer;
+    background: url("../img.1/add.png") no-repeat top right;
+}
+ul.price ul{
+    height: 0;
+    overflow: hidden;
+    transition: all .5 linear;
+}
+ul.price li.open{
+    background: url("../img.1/minus.png")no-repeat top right;
+}
+ul.price:nth-child(1)>.open+ul{
+    height: 64px;
+}
+
+
+
+
+
+
 /*香水右边的内容*/
 div.list-content-right{
     float: left;
@@ -59,6 +83,19 @@ div.list-content-right{
     height: 71px;
     border-bottom: 1px solid #e6e5e5;
 }
+.list-content-r-title ul:first-child{
+    float: left;
+}
+.list-content-r-title .right{
+    text-align: right;
+}
+li.there{
+    margin: 0 15px 0 0;
+    color: #000;
+}
+.list-content-r-title .right:first-child{
+    margin: 0 15px 0 0;
+}
 .list-content-right li{
     display: inline;
     color: #999;
@@ -69,3 +106,5 @@ div.list-content-right{
     width: 242px;
 
 }
+
+
